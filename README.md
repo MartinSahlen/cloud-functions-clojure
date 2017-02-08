@@ -1,14 +1,16 @@
 # cloud-fn-test
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to test Google cloud functions https://cloud.google.com/functions/docs/quickstart.
+
 
 ## Usage
 
-FIXME
+Write your code using clojurescript and compile it to server-side node required for Google cloud functions.
+
+More docs will come.
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Martin Sahlen
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License
