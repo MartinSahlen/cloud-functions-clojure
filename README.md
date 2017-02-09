@@ -11,6 +11,9 @@ you to write code for cloud functions using Clojure <3!
 Run `lein cljsbuild once` to compile the project. Based on what your namespaces are (currenty only `core`),
 the index.js will export the function(s) in the node module format required by Google cloud functions. Pretty cool!
 
+then, you will run:
+
+`gcloud alpha functions deploy greet --stage-bucket <your_bucket> --trigger-http`
 
 ## License
 
