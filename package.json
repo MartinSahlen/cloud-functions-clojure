@@ -1,0 +1,22 @@
+{
+  "name": "cloud-fn-test",
+  "version": "1.0.0",
+  "description": "A Clojure thing designed to test Google cloud functions https://cloud.google.com/functions/docs/quickstart.",
+  "main": "index.js",
+  "devDependencies": {
+    "circular-json": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinSahlen/cloud-fn-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinSahlen/cloud-fn-test/issues"
+  },
+  "homepage": "https://github.com/MartinSahlen/cloud-fn-test#readme"
+}
