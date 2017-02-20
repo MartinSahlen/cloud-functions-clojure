@@ -21,7 +21,7 @@
       (println (.-path raw-req))
       (println req)
       (println (bidi/match-route my-routes (:path req)))
-      (.json raw-res (clj->js(:headers req))))))
+      (.json raw-res (clj->js (:headers req))))))
 
 (enable-console-print!)
 (set! (.-exports js/module) #js {:greet greet})
