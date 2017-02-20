@@ -11,3 +11,5 @@ pom.xml.asc
 .hg/
 core.js
 core.js.map
+index.js
+index.js.map

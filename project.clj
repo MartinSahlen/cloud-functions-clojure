@@ -7,8 +7,10 @@
   :cljsbuild {
   :builds [{
     :source-paths ["src"]
-    :compiler {:output-to "core.js"
+    :compiler {
+               :main core
+               :output-to "index.js"
                :target :nodejs
-               :source-map "core.js.map"
-               :optimizations :advanced
+               :source-map "index.js.map"
+               :optimizations :simple
                }}]})
